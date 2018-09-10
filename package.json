@@ -13,7 +13,7 @@
   "activationCommands": {
     "atom-workspace": "codesandbox:toggle-preview-pane"
   },
-  "repository": "https://github.com/atom/codesandbox",
+  "repository": "https://github.com/brumm/atom-codesandbox",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
