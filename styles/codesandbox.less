@@ -1,0 +1,141 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import 'ui-variables';
+
+.codesandbox {
+  display: flex;
+  flex-direction: column;
+
+  .nav-bar {
+    flex-shrink: 0;
+  }
+
+  .layout-pane {
+    display: flex;
+    flex-direction: column;
+  }
+  .layout-splitter {
+    height: 10px !important;
+    background-color: transparent !important;
+  }
+
+  .preview {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+
+    .toolbar {
+      background-color: #f2f2f2;
+      border-bottom: 1px solid #e8e8e8;
+
+      .btn {
+        color: #6b6b6b;
+        &:hover {
+          background-image: unset;
+          background-color: #e1e1e1;
+        }
+      }
+
+      .input-text {
+        margin: 4px;
+        flex-grow: 1;
+        font-size: 11px;
+        border-color: transparent;
+        background-color: #fff;
+
+        &:hover {
+          border-color: #cccccc;
+          background-color: #fff;
+        }
+      }
+    }
+
+    iframe {
+      flex-grow: 1;
+      border: none;
+      background-color: #fff;
+
+      &.non-interactive {
+        pointer-events: none;
+      }
+    }
+  }
+
+  .toolbar {
+    flex-shrink: 0;
+    color: @text-color;
+    height: 30px;
+    display: flex;
+
+    .btn {
+      border: none;
+      border-radius: 0;
+      display: inline-flex;
+      align-items: center;
+      height: 100%;
+
+      &[disabled] {
+        opacity: 0.3;
+        &:hover {
+          background: transparent !important;
+          background-image: none !important;
+        }
+      }
+
+      &:not(:hover) {
+        background-color: transparent !important;
+        background-image: none !important;
+      }
+
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+
+        &::before {
+          width: 21px;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .console {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    .toolbar {
+      border-top: 1px solid @base-border-color;
+      background-color: @base-background-color;
+      border-bottom: 1px solid @base-border-color;
+    }
+
+    .scroll-view {
+      flex-grow: 1;
+      overflow-y: auto;
+    }
+
+    atom-text-editor {
+      flex-shrink: 0;
+      border-radius: 0;
+      border: none;
+      border-top: 1px solid @base-border-color;
+      padding-left: @component-icon-size + @component-padding;
+
+      &.is-focused {
+        outline: unset;
+        box-shadow: unset;
+        background-color: unset;
+      }
+    }
+  }
+}

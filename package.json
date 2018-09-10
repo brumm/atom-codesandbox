@@ -1,0 +1,40 @@
+{
+  "name": "atom-codesandbox",
+  "main": "./lib/codesandbox",
+  "version": "0.0.1",
+  "description": "Open a file in a new Codesandbox preview pane",
+  "keywords": [
+    "codesandbox",
+    "preview",
+    "console",
+    "live",
+    "reload"
+  ],
+  "activationCommands": {
+    "atom-workspace": "codesandbox:toggle-preview-pane"
+  },
+  "repository": "https://github.com/atom/codesandbox",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "codesandbox-api": "0.0.19",
+    "console-feed": "^2.8.3",
+    "filing-cabinet": "^2.0.1",
+    "precinct": "^5.0.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-splitter-layout": "^3.0.1",
+    "smooshpack": "0.0.50"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
