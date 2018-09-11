@@ -1,5 +1,7 @@
 # Codesandbox.io for Atom
 
+`apm install atom-codesandbox`
+
 An Atom package that let's you magically preview your current file in a Codesandbox pane.
 
 No dependency management needed, just `import` or `require` what you need and Codesandbox's hosted bundler Sandpack will hot-reload and preview your code!
