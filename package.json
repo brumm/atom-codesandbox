@@ -26,6 +26,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-splitter-layout": "^3.0.1",
+    "read-pkg-up": "^4.0.0",
     "smooshpack": "0.0.50"
   },
   "devDependencies": {
