@@ -22,9 +22,13 @@ console.log(randomColor())
 
 You'll see a random color appear in the Preview Pane console!
 
+Psst: You can also create a new scratch file in your temp directory by running `Codesandbox: New Scratch Pad`
+
 #### Rendering
 
-There's a `<div id="root"></div>` that's available to your code, if you want to render something to the DOM, for example with React:
+There's a `<div id="root"></div>` that's available to your code, if you want to render something to the DOM.
+
+For example with React:
 
 ```js
 import React from 'react'
@@ -35,22 +39,23 @@ render(<marquee>Hello world!</marquee>, document.getElementById('root'))
 
 ### Keymap
 
-This package does not assign a shortcut by default, you can
-run `Application: Open Your Keymap` from the Command Palette add one of your choosing to your `keymap.cson`:
+This package does not assign a shortcut by default, you can run `Application: Open Your Keymap` from the Command Palette add one of your choosing to your `keymap.cson`:
 
 ```coffee
 'atom-text-editor:not([mini])':
   'ctrl-alt-c': 'codesandbox:toggle-preview-pane'
+  'ctrl-alt-n': 'codesandbox:new-scratch-pad'
 ```
 
 ### Caveats
 
 There's no support (yet) for special configuration via `package.json` or `webpack.config.js`.
 
-### Top secret stuff?
+### Working on Top Secret Stuff?
 
-Currently, this package will look at the active file and recursively gather its dependencies.
-The gathered files are bundled locally in a ServiceWorker, but nothing will be persisted until you choose to 'Open In Codesandbox' at which point they are turned into a dedicated Sandbox.
+This package will only look at the active file and recursively gather its dependencies and file contents.
+The gathered files are only bundled locally in a ServiceWorker and never sent to Codesandbox or a third party.
+Nothing will be persisted until you choose to 'Open In Codesandbox' at which point they are turned into a dedicated Sandbox.
 
 ### Thanks
 
