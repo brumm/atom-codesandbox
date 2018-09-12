@@ -11,7 +11,10 @@
     "reload"
   ],
   "activationCommands": {
-    "atom-workspace": "codesandbox:toggle-preview-pane"
+    "atom-workspace": [
+      "codesandbox:toggle-preview-pane",
+      "codesandbox:new-scratch-pad"
+    ]
   },
   "repository": "https://github.com/brumm/atom-codesandbox",
   "license": "MIT",
@@ -26,7 +29,8 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-splitter-layout": "^3.0.1",
-    "smooshpack": "0.0.50"
+    "smooshpack": "0.0.50",
+    "tempy": "^0.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
