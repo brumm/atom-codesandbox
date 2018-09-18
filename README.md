@@ -37,6 +37,14 @@ import { render } from 'react-dom'
 render(<marquee>Hello world!</marquee>, document.getElementById('root'))
 ```
 
+### Package Versions
+
+You can import a specific package version by appending the version to the package name, prefixed by an '@' character:
+
+```js
+import React from 'react@16.5.2'
+```
+
 ### Keymap
 
 This package does not assign a shortcut by default, you can run `Application: Open Your Keymap` from the Command Palette add one of your choosing to your `keymap.cson`:
