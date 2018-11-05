@@ -1,0 +1,8 @@
+{
+  "scratchpadTemplates": [
+    {
+      "title": "Hello World",
+      "body": "console.log(\"Hello World\");"
+    }
+  ]
+}

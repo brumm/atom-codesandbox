@@ -10,18 +10,13 @@
     "live",
     "reload"
   ],
-  "activationCommands": {
-    "atom-workspace": [
-      "codesandbox:toggle-preview-pane",
-      "codesandbox:new-scratch-pad"
-    ]
-  },
   "repository": "https://github.com/brumm/atom-codesandbox",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-select-list": "^0.7.2",
     "codesandbox-api": "0.0.19",
     "console-feed": "^2.8.3",
     "filing-cabinet": "^2.0.1",
