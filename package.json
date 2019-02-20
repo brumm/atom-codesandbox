@@ -10,30 +10,30 @@
     "live",
     "reload"
   ],
-  "repository": "https://github.com/brumm/atom-codesandbox",
+  "repository": "git@github.com:brumm/atom-codesandbox.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "atom-select-list": "^0.7.2",
-    "codesandbox-api": "0.0.19",
-    "console-feed": "^2.8.3",
-    "filing-cabinet": "^2.0.1",
-    "precinct": "^5.0.1",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
+    "codesandbox-api": "0.0.20",
+    "console-feed": "^2.8.5",
+    "filing-cabinet": "^2.3.2",
+    "precinct": "^6.1.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
     "react-splitter-layout": "^3.0.1",
-    "smooshpack": "0.0.50",
+    "smooshpack": "0.0.54",
     "tempy": "^0.2.1"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.5.0",
-    "eslint-config-react-app": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.50.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-react-app": "^3.0.7",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
