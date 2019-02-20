@@ -1,7 +1,7 @@
 {
   "name": "atom-codesandbox",
   "main": "./lib/codesandbox",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Open a file in a new Codesandbox preview pane",
   "keywords": [
     "codesandbox",
