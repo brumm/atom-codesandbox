@@ -1,6 +1,6 @@
 # Codesandbox.io for Atom
 
-`apm install atom-codesandbox`
+`apm install atom-codesandbox` or [Click here to open this package in Atom](atom://settings-view/show-package?package=atom-codesandbox)
 
 An Atom package that let's you magically preview your current file in a Codesandbox pane.
 
@@ -43,6 +43,8 @@ You can import a specific package version by appending the version to the packag
 
 ```js
 import React from 'react@16.5.2'
+// named tags also work
+// import React from 'react@next'
 ```
 
 ### Keymap
@@ -67,4 +69,4 @@ Nothing will be persisted until you choose to 'Open In Codesandbox' at which poi
 
 ### Thanks
 
-https://github.com/CompuIves/ for his incredible work and stewardship of Codesandbox without this would be impossible
+https://github.com/CompuIves/ for his incredible work and stewardship of Codesandbox without which this project would not have been possible. <3
