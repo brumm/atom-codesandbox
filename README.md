@@ -1,6 +1,6 @@
 # Codesandbox.io for Atom
 
-`apm install atom-codesandbox` or [Click here to open this package in Atom](atom://settings-view/show-package?package=atom-codesandbox)
+`apm install atom-codesandbox`
 
 An Atom package that let's you magically preview your current file in a Codesandbox pane.
 
