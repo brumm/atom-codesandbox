@@ -18,7 +18,7 @@
   "dependencies": {
     "atom-select-list": "^0.7.2",
     "codesandbox-api": "0.0.20",
-    "console-feed": "^2.8.5",
+    "console-feed": "^2.8.10",
     "filing-cabinet": "^2.3.2",
     "precinct": "^6.1.1",
     "react": "^16.8.2",
